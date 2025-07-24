@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# DeepSpeed
+zero_to_fp32.py
+ds_config.json
+
+# Logs
+*.log
+logs/
+wandb/
+tensorboard_logs/
+
+# Data
+*.jsonl
+*.json
+*.csv
+*.pkl
+*.pickle
+dataset/
+data/
+models/
+checkpoints/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Training artifacts
+outputs/
+results/
+experiments/
+runs/
+
+# Unity
+*.unity
+*.meta
+*.prefab
+*.asset
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Migration packages
+d2c_migration_*/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Output files
+VirtualHome/behavior_cloning/Output/
+VirtualHome/behavior_cloning/*.png
+VirtualHome/behavior_cloning/*.txt
+VirtualHome/behavior_cloning/port_*.txt
+
+# Model files
+Discriminator/VirtualHome/lm_tuning_vh/flan-t5-large/
+Discriminator/VirtualHome/lm_tuning_vh/outputs/
+Discriminator/VirtualHome/lm_tuning_vh/cache/
+Discriminator/VirtualHome/lm_tuning_vh/wandb/
+
+# Large model files
+*.bin
+*.msgpack
+*.h5
