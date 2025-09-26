@@ -41,7 +41,7 @@ from torch.utils.data import Dataset, DataLoader
 try:
     import wandb
     WANDB_AVAILABLE = True
-    os.environ["WANDB_API_KEY"] = '834a0f4c69342953a60571a98f02b14011afe491'
+    os.environ["WANDB_API_KEY"] = ''
     os.environ["WANDB_MODE"] = "online"
 except ImportError:
     WANDB_AVAILABLE = False
